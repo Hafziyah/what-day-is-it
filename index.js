@@ -2,7 +2,7 @@ let userName = prompt("What is your name?");
 
 prompt (`${userName}, do you know what day of the week it is?`);
 
- prompt(`Okay, ${userName}, what day is it?`);
+ prompt(`Okay, ${userName}, what day is it? Y/N?`);
  alert("Are you sure? Let me check - does scientific magic");
  let weekday = new Date().toLocaleString("en-US", { weekday: "long" });
 // console.log(weekday);
