@@ -16,5 +16,7 @@ prompt (`${userName}, do you know what day of the week it is? Y/N?`);
  } else if (weekday === "Thursday") {
      alert (`${userName}, it is Thursday! Ayyyyy! You are one day closer to Friyay! Have a wonderful work day`);
  } else if (weekday==="Friday") {
-     alert (`${userName}, it is Friyayyyy! Here is to the weekend's almost here!`)
- } else (`${userName}, WEEKEND! Whoop! Whoop!`)
+     alert (`${userName}, it is Friyayyyy! Here is to the weekend's almost here!`);
+ } else {
+     alert (`${userName}, WEEKEND! Whoop! Whoop!`);
+ }
